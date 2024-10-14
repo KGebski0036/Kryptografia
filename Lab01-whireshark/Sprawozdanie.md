@@ -17,34 +17,33 @@
 
 ## Przygotowanie
 
-Pracę nad zadanie zaczołem od pobrania dwóch plików z sieci (`txt` i `exe`) i przeniesieniu ich do specjalnego folderu na którym wykonałem komendę.
+Pracę nad zadaniem zacząłem od pobrania dwóch plików z sieci (`txt` i `exe`) i przeniesienia ich do specjalnego folderu, w którym wykonałem komendę.
 
 
 <div  align="center">
 	<img src="image.png">
 </div>
 
-Dzięki temu mogłem w bezpieczny sposób pobrać pliki lokalnie z komputera. Eliminują przy okazji zbędny szum sieci.
+Dzięki temu mogłem w bezpieczny sposób pobrać pliki lokalnie na komputer. Eliminuję przy okazji zbędny szum sieci.
 
 ## Whreshark
 
-Zaczołem nasłuchiwać na mojej karcie sieciowej za pomocą programu `Whireshark` i pobrałem kolejno dwa pliki zapisując każdy z nasuchów i wyekstraktowanej komunikacji.
+Zacząłem nasłuchiwać na mojej karcie sieciowej za pomocą programu `Wireshark` i pobrałem kolejno dwa pliki, zapisując każdy z nasłuchów i wyekstrahowanej komunikacji.
 
 <div  align="center">
 	<img src="image2.png">
 </div>
 
-po wyekstraktowaniu ze strumienia z zapisu ruchu sieciowego porównałem je za pomocą komendy `diff`.
+Po wyekstraktowaniu ze strumienia zapisu ruchu sieciowego porównałem je za pomocą komendy `diff`.
 
 <div  align="center">
 	<img src="image-1.png">
 </div>
 
-Pokazany wyrzej zrzut ekranu pokazuje że między pobranym a oryginalnym plikiem nie ma żadnej różnicy. Jedyną różnicą w plikach przed przerobieniem były nagłówki protokołu HTTP.
-
+Pokazany wyżej zrzut ekranu wskazuje, że między pobranym a oryginalnym plikiem nie ma żadnej różnicy. Jedyną różnicą w plikach przed przerobieniem były nagłówki protokołu HTTP.
 ## Tcpdump
 
-Tak samo jak u poprzednika udało się przechwycić ruch na karcie. A oprócz nagłówków HTTP nie widać było żadnych różnic między plikami.
+Tak samo jak u poprzednika udało się przechwycić ruch na karcie. Oprócz nagłówków HTTP nie było widać żadnych różnic między plikami.
 
 <div  align="center">
 	<img src="image-2.png">
