@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.12.7
+Date: Sun, 13 Oct 2024 16:48:33 GMT
+Content-type: text/plain
+Content-Length: 60
+Last-Modified: Sun, 13 Oct 2024 16:26:49 GMT
+
+Facebook password: 623j23h1f!3
+Google password: zhSR%23adAA
