@@ -21,7 +21,7 @@ Pracę nad zadaniem zacząłem od pobrania dwóch plików z sieci (`txt` i `exe`
 
 
 <div  align="center">
-	<img src="image.png">
+	<img src="assets/image.png">
 </div>
 
 Dzięki temu mogłem w bezpieczny sposób pobrać pliki lokalnie na komputer. Eliminuję przy okazji zbędny szum sieci.
@@ -31,13 +31,13 @@ Dzięki temu mogłem w bezpieczny sposób pobrać pliki lokalnie na komputer. El
 Zacząłem nasłuchiwać na mojej karcie sieciowej za pomocą programu `Wireshark` i pobrałem kolejno dwa pliki, zapisując każdy z nasłuchów i wyekstrahowanej komunikacji.
 
 <div  align="center">
-	<img src="image2.png">
+	<img src="assets/image2.png">
 </div>
 
 Po wyekstraktowaniu ze strumienia zapisu ruchu sieciowego porównałem je za pomocą komendy `diff`.
 
 <div  align="center">
-	<img src="image-1.png">
+	<img src="assets/image-1.png">
 </div>
 
 Pokazany wyżej zrzut ekranu wskazuje, że między pobranym a oryginalnym plikiem nie ma żadnej różnicy. Jedyną różnicą w plikach przed przerobieniem były nagłówki protokołu HTTP.
@@ -46,14 +46,14 @@ Pokazany wyżej zrzut ekranu wskazuje, że między pobranym a oryginalnym plikie
 Tak samo jak u poprzednika udało się przechwycić ruch na karcie. Oprócz nagłówków HTTP nie było widać żadnych różnic między plikami.
 
 <div  align="center">
-	<img src="image-2.png">
+	<img src="assets/image-2.png">
 </div>
 
 ## Przegląd plików pod względem haseł
 
 <div  align="center">
-	<img src="image-3.png">
-	<img src="image-4.png">
+	<img src="assets/image-3.png">
+	<img src="assets/image-4.png">
 </div>
 
 ## Podsumowanie
