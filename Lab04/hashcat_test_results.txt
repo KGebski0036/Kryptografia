@@ -25,3 +25,6 @@ Długość | SHA-1 (s) | SHA-512 (s)
 8        | 50c74bf5053eba8e70e430622fd9e150432eea16:ihcovzpz
 41      | 03b3a71fafa7005d3ccc2f865bea2710a575cb452f4127032f8af87fc148bd0b8a312b5dd15d0b94eeb2ad406dfd7f3a5306280a2901870d404db7d9ce6708fa:ihcovzpz
 212
+9        | 33c415beed96925ae8fa22f2f7dc825d8a17cbce:suyyjbmwh
+422      | c3288a0c997ad6b7cedd0311e29242440e2098c810badb46cefafffece4db8ba8d98adc628e9a0b6a195506fdc84c0d3d5236b263cda7d7f006563096daf5ce3:suyyjbmwh
+>20m
